@@ -1,0 +1,382 @@
+header {
+    background-color: #463F3A;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    /* margin-top: -7%; */
+    top: 0;
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 65px;
+}
+
+h1 {
+    position: absolute;
+    left: 120px;
+    top: -10px;
+    line-height: 56px;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.bartop {
+    height: 6vh;
+    background-color: white;
+}
+
+.aboutmebar {
+    height: 80px;
+    background-color: white;
+
+}
+
+.bar {
+    height: 12vh;
+    background-color: #F4F3EE;
+}
+
+article {
+    /* margin-top: 7%; */
+}
+
+.home {
+    height: 10px;
+}
+
+.flexible {
+    background-color: #ffdc35;
+    height: 45vh;
+    width: auto;
+    color: rgba(45, 38, 22, 0.712);
+    background-image: url("about me/profile/crepuscular\ rays\(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+.motto {
+    background-color: rgba(255, 255, 255, 0.274);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    width: 210vh;
+    padding: 0 0 0 0;
+    border-radius: 5px;
+}
+
+.flexible span {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 95px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+
+}
+
+
+.flexible p {
+    font-size: 26px;
+    padding: 0 50px 0 -50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.title {
+    background-color: #F4F3EE;
+    color: black;
+    height: 60vh;
+    font-size: 38px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 1.05em;
+}
+
+.fb {
+    display: flex;
+    flex-direction: column;
+}
+
+.a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.title ul {
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+.titlebar {
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    background: #F4F3EE;
+    font-size: 37px;
+}
+
+.selfie {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    border-style: groove white;
+    object-fit: cover;
+}
+
+.div {
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    text-align: center;
+    font: 15px bolder darkgrey;
+}
+
+.pie1,
+.pie2,
+.pie3,
+.pie4,
+.pie5 {
+    margin: 0px auto;
+    width: 150px;
+    height: 150px;
+    background: #4f9d9d;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, transparent 50%, #ffdc35 0%);
+}
+
+.pie1::before {
+    content: "";
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: inherit;
+    transform-origin: left;
+    transform: rotate(0.37turn);
+}
+
+.pie2::before {
+    content: "";
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: inherit;
+    transform-origin: left;
+    transform: rotate(0.32turn);
+}
+
+.pie3::before {
+    content: "";
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: inherit;
+    transform-origin: left;
+    transform: rotate(0.26turn);
+}
+
+.pie4::before {
+    content: "";
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: inherit;
+    transform-origin: left;
+    transform: rotate(0.49turn);
+}
+
+.pie5::before {
+    content: "";
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: inherit;
+    transform-origin: left;
+    transform: rotate(0.44turn);
+}
+
+.pieall {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F4F3EE;
+}
+
+.pieall div {
+    margin: 20px auto 0px;
+}
+
+.bigtable {
+    background-color: #F4F3EE;
+}
+
+table {
+    margin: 0 auto 0 10.5vw;
+    border-collapse: collapse;
+    background-color: #F4F3EE;
+}
+
+table tr td {
+    font-size: 25px;
+    padding: 0 auto;
+    border: #F4F3EE 1px solid;
+    margin: 15px auto;
+}
+
+content {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10em;
+    background: lightgray;
+}
+
+progress[value]::-webkit-progress-bar {
+    border-radius: 10em;
+    background: lightgray;
+}
+
+progress[value]::-webkit-progress-value {
+    border-radius: 10em;
+    background: #615851;
+}
+
+.exp {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 15px 35px;
+    padding: 0;
+}
+
+.work {
+    /* height: 300px; */
+    /* overflow: hidden; */
+    object-fit: cover;
+    border-radius: 10px;
+    float: center;
+    margin: 15px 60px;
+    padding: 0;
+}
+
+img work {
+    margin: 0 42px;
+
+
+}
+
+#experiences {
+    background-color: #F4F3EE;
+}
+
+.info {
+    background-color: #F4F3EE;
+    padding: 0 2.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.info h2 {
+    font-size: 40px;
+    margin-bottom: 28px;
+}
+
+.info p {
+    text-align: left;
+    line-height: 2em;
+}
+
+.tt {
+    flex-direction: column;
+}
+
+.te {
+    flex-direction: column;
+    margin: 35px;
+}
+
+.others {
+    display: flex;
+    background-color: #BCB8B1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 75px 80px;
+}
+
+.others iframe,
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.others h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.other p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.width {
+    width: 25vw;
+    text-align: center;
+}
+
+.footer {
+    background-color: #463F3A;
+    color: whitesmoke;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
